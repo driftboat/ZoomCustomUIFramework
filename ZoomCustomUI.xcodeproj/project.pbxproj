@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D92B8CBC269663B70089CC8A /* ZoomCustomUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92B8CB2269663B70089CC8A /* ZoomCustomUI.framework */; };
+		D92B8CC1269663B70089CC8A /* ZoomCustomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CC0269663B70089CC8A /* ZoomCustomUITests.m */; };
+		D92B8CC3269663B70089CC8A /* ZoomCustomUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CB5269663B70089CC8A /* ZoomCustomUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92B8D432696641A0089CC8A /* zoom_cutomui_prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CCF2696641A0089CC8A /* zoom_cutomui_prefix.pch */; };
+		D92B8D442696641A0089CC8A /* OpenglView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CD12696641A0089CC8A /* OpenglView.h */; };
+		D92B8D452696641A0089CC8A /* OpenglView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CD22696641A0089CC8A /* OpenglView.m */; };
+		D92B8D462696641A0089CC8A /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CD32696641A0089CC8A /* Utility.m */; };
+		D92B8D472696641A0089CC8A /* VideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CD52696641A0089CC8A /* VideoViewController.h */; };
+		D92B8D482696641A0089CC8A /* QAListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CD62696641A0089CC8A /* QAListViewController.h */; };
+		D92B8D492696641A0089CC8A /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CD72696641A0089CC8A /* HorizontalTableView.m */; };
+		D92B8D4A2696641A0089CC8A /* VBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CD82696641A0089CC8A /* VBViewController.h */; };
+		D92B8D4B2696641A0089CC8A /* CustomMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CD92696641A0089CC8A /* CustomMeetingViewController.m */; };
+		D92B8D4C2696641A0089CC8A /* ThumbTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CDA2696641A0089CC8A /* ThumbTableViewCell.h */; };
+		D92B8D4D2696641A0089CC8A /* LocalShareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CDB2696641A0089CC8A /* LocalShareViewController.h */; };
+		D92B8D4E2696641A0089CC8A /* BottomPanelView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CDC2696641A0089CC8A /* BottomPanelView.h */; };
+		D92B8D4F2696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CDD2696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.h */; };
+		D92B8D502696641A0089CC8A /* ThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CDE2696641A0089CC8A /* ThumbView.h */; };
+		D92B8D512696641A0089CC8A /* BOMeetingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CDF2696641A0089CC8A /* BOMeetingViewController.h */; };
+		D92B8D522696641A0089CC8A /* AnnoFloatBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CE02696641A0089CC8A /* AnnoFloatBarView.h */; };
+		D92B8D532696641A0089CC8A /* TopPanelView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CE12696641A0089CC8A /* TopPanelView.h */; };
+		D92B8D542696641A0089CC8A /* CustomRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE22696641A0089CC8A /* CustomRemoteControl.m */; };
+		D92B8D552696641A0089CC8A /* QAListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE32696641A0089CC8A /* QAListTableViewCell.m */; };
+		D92B8D562696641A0089CC8A /* RemoteShareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CE42696641A0089CC8A /* RemoteShareViewController.h */; };
+		D92B8D572696641A0089CC8A /* QAListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE52696641A0089CC8A /* QAListViewController.m */; };
+		D92B8D582696641A0089CC8A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE62696641A0089CC8A /* VideoViewController.m */; };
+		D92B8D592696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE72696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.m */; };
+		D92B8D5A2696641A0089CC8A /* BottomPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE82696641A0089CC8A /* BottomPanelView.m */; };
+		D92B8D5B2696641A0089CC8A /* LocalShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CE92696641A0089CC8A /* LocalShareViewController.m */; };
+		D92B8D5C2696641A0089CC8A /* ThumbTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CEA2696641A0089CC8A /* ThumbTableViewCell.m */; };
+		D92B8D5D2696641A0089CC8A /* CustomMeetingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CEB2696641A0089CC8A /* CustomMeetingViewController.h */; };
+		D92B8D5E2696641A0089CC8A /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CEC2696641A0089CC8A /* VBViewController.m */; };
+		D92B8D5F2696641A0089CC8A /* HorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CED2696641A0089CC8A /* HorizontalTableView.h */; };
+		D92B8D602696641A0089CC8A /* CustomRemoteControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CEE2696641A0089CC8A /* CustomRemoteControl.h */; };
+		D92B8D612696641A0089CC8A /* TopPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CEF2696641A0089CC8A /* TopPanelView.m */; };
+		D92B8D622696641A0089CC8A /* AnnoFloatBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CF02696641A0089CC8A /* AnnoFloatBarView.m */; };
+		D92B8D632696641A0089CC8A /* OpenGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CF22696641A0089CC8A /* OpenGLViewController.h */; };
+		D92B8D642696641A0089CC8A /* TopBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CF32696641A0089CC8A /* TopBar.h */; };
+		D92B8D652696641A0089CC8A /* BottomBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CF42696641A0089CC8A /* BottomBarView.h */; };
+		D92B8D662696641A0089CC8A /* AudioRawDataSaveSandboxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CF62696641A0089CC8A /* AudioRawDataSaveSandboxHelper.h */; };
+		D92B8D672696641A0089CC8A /* AudioRawDataSaveSandboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CF72696641A0089CC8A /* AudioRawDataSaveSandboxHelper.m */; };
+		D92B8D682696641A0089CC8A /* ControlBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8CF82696641A0089CC8A /* ControlBar.h */; };
+		D92B8D692696641A0089CC8A /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CF92696641A0089CC8A /* OpenGLViewController.m */; };
+		D92B8D6A2696641A0089CC8A /* BottomBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CFA2696641A0089CC8A /* BottomBarView.m */; };
+		D92B8D6B2696641A0089CC8A /* TopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CFB2696641A0089CC8A /* TopBar.m */; };
+		D92B8D6C2696641A0089CC8A /* ControlBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CFC2696641A0089CC8A /* ControlBar.m */; };
+		D92B8D6D2696641A0089CC8A /* BOMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CFD2696641A0089CC8A /* BOMeetingViewController.m */; };
+		D92B8D6E2696641A0089CC8A /* ThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CFE2696641A0089CC8A /* ThumbView.m */; };
+		D92B8D6F2696641A0089CC8A /* RemoteShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8CFF2696641A0089CC8A /* RemoteShareViewController.m */; };
+		D92B8D702696641A0089CC8A /* QAListTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8D002696641A0089CC8A /* QAListTableViewCell.h */; };
+		D92B8D712696641A0089CC8A /* ZoomCustomUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8D012696641A0089CC8A /* ZoomCustomUI.m */; };
+		D92B8D862696641A0089CC8A /* SDKVideoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8D1E2696641A0089CC8A /* SDKVideoPresenter.m */; };
+		D92B8D872696641A0089CC8A /* SDKVideoPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8D1F2696641A0089CC8A /* SDKVideoPresenter.h */; };
+		D92B8D882696641A0089CC8A /* SDKActionPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8D212696641A0089CC8A /* SDKActionPresenter.h */; };
+		D92B8D892696641A0089CC8A /* SDKActionPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8D222696641A0089CC8A /* SDKActionPresenter.m */; };
+		D92B8D8A2696641A0089CC8A /* SDKSharePresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8D242696641A0089CC8A /* SDKSharePresenter.h */; };
+		D92B8D8B2696641A0089CC8A /* SDKSharePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8D252696641A0089CC8A /* SDKSharePresenter.m */; };
+		D92B8D8C2696641A0089CC8A /* SDKAudioPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8D272696641A0089CC8A /* SDKAudioPresenter.h */; };
+		D92B8D8D2696641A0089CC8A /* SDKAudioPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B8D282696641A0089CC8A /* SDKAudioPresenter.m */; };
+		D92B8D9E2696641A0089CC8A /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = D92B8D412696641A0089CC8A /* Utility.h */; };
+		D92B8DA9269665340089CC8A /* MobileRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92B8DA8269665340089CC8A /* MobileRTC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D92B8CBD269663B70089CC8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92B8CA9269663B70089CC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92B8CB1269663B70089CC8A;
+			remoteInfo = ZoomCustomUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D92B8CB2269663B70089CC8A /* ZoomCustomUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomCustomUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B8CB5269663B70089CC8A /* ZoomCustomUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomCustomUI.h; sourceTree = "<group>"; };
+		D92B8CB6269663B70089CC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92B8CBB269663B70089CC8A /* ZoomCustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomCustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B8CC0269663B70089CC8A /* ZoomCustomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomCustomUITests.m; sourceTree = "<group>"; };
+		D92B8CC2269663B70089CC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92B8CCF2696641A0089CC8A /* zoom_cutomui_prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zoom_cutomui_prefix.pch; sourceTree = "<group>"; };
+		D92B8CD12696641A0089CC8A /* OpenglView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenglView.h; sourceTree = "<group>"; };
+		D92B8CD22696641A0089CC8A /* OpenglView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenglView.m; sourceTree = "<group>"; };
+		D92B8CD32696641A0089CC8A /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		D92B8CD52696641A0089CC8A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		D92B8CD62696641A0089CC8A /* QAListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAListViewController.h; sourceTree = "<group>"; };
+		D92B8CD72696641A0089CC8A /* HorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableView.m; sourceTree = "<group>"; };
+		D92B8CD82696641A0089CC8A /* VBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
+		D92B8CD92696641A0089CC8A /* CustomMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMeetingViewController.m; sourceTree = "<group>"; };
+		D92B8CDA2696641A0089CC8A /* ThumbTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbTableViewCell.h; sourceTree = "<group>"; };
+		D92B8CDB2696641A0089CC8A /* LocalShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalShareViewController.h; sourceTree = "<group>"; };
+		D92B8CDC2696641A0089CC8A /* BottomPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomPanelView.h; sourceTree = "<group>"; };
+		D92B8CDD2696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CustomMeetingViewController+MeetingDelegate.h"; sourceTree = "<group>"; };
+		D92B8CDE2696641A0089CC8A /* ThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbView.h; sourceTree = "<group>"; };
+		D92B8CDF2696641A0089CC8A /* BOMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOMeetingViewController.h; sourceTree = "<group>"; };
+		D92B8CE02696641A0089CC8A /* AnnoFloatBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnoFloatBarView.h; sourceTree = "<group>"; };
+		D92B8CE12696641A0089CC8A /* TopPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPanelView.h; sourceTree = "<group>"; };
+		D92B8CE22696641A0089CC8A /* CustomRemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRemoteControl.m; sourceTree = "<group>"; };
+		D92B8CE32696641A0089CC8A /* QAListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAListTableViewCell.m; sourceTree = "<group>"; };
+		D92B8CE42696641A0089CC8A /* RemoteShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteShareViewController.h; sourceTree = "<group>"; };
+		D92B8CE52696641A0089CC8A /* QAListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAListViewController.m; sourceTree = "<group>"; };
+		D92B8CE62696641A0089CC8A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		D92B8CE72696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CustomMeetingViewController+MeetingDelegate.m"; sourceTree = "<group>"; };
+		D92B8CE82696641A0089CC8A /* BottomPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomPanelView.m; sourceTree = "<group>"; };
+		D92B8CE92696641A0089CC8A /* LocalShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalShareViewController.m; sourceTree = "<group>"; };
+		D92B8CEA2696641A0089CC8A /* ThumbTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbTableViewCell.m; sourceTree = "<group>"; };
+		D92B8CEB2696641A0089CC8A /* CustomMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMeetingViewController.h; sourceTree = "<group>"; };
+		D92B8CEC2696641A0089CC8A /* VBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
+		D92B8CED2696641A0089CC8A /* HorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableView.h; sourceTree = "<group>"; };
+		D92B8CEE2696641A0089CC8A /* CustomRemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRemoteControl.h; sourceTree = "<group>"; };
+		D92B8CEF2696641A0089CC8A /* TopPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopPanelView.m; sourceTree = "<group>"; };
+		D92B8CF02696641A0089CC8A /* AnnoFloatBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnoFloatBarView.m; sourceTree = "<group>"; };
+		D92B8CF22696641A0089CC8A /* OpenGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLViewController.h; sourceTree = "<group>"; };
+		D92B8CF32696641A0089CC8A /* TopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBar.h; sourceTree = "<group>"; };
+		D92B8CF42696641A0089CC8A /* BottomBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomBarView.h; sourceTree = "<group>"; };
+		D92B8CF62696641A0089CC8A /* AudioRawDataSaveSandboxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRawDataSaveSandboxHelper.h; sourceTree = "<group>"; };
+		D92B8CF72696641A0089CC8A /* AudioRawDataSaveSandboxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRawDataSaveSandboxHelper.m; sourceTree = "<group>"; };
+		D92B8CF82696641A0089CC8A /* ControlBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlBar.h; sourceTree = "<group>"; };
+		D92B8CF92696641A0089CC8A /* OpenGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewController.m; sourceTree = "<group>"; };
+		D92B8CFA2696641A0089CC8A /* BottomBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomBarView.m; sourceTree = "<group>"; };
+		D92B8CFB2696641A0089CC8A /* TopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBar.m; sourceTree = "<group>"; };
+		D92B8CFC2696641A0089CC8A /* ControlBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlBar.m; sourceTree = "<group>"; };
+		D92B8CFD2696641A0089CC8A /* BOMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOMeetingViewController.m; sourceTree = "<group>"; };
+		D92B8CFE2696641A0089CC8A /* ThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbView.m; sourceTree = "<group>"; };
+		D92B8CFF2696641A0089CC8A /* RemoteShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteShareViewController.m; sourceTree = "<group>"; };
+		D92B8D002696641A0089CC8A /* QAListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAListTableViewCell.h; sourceTree = "<group>"; };
+		D92B8D012696641A0089CC8A /* ZoomCustomUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomCustomUI.m; sourceTree = "<group>"; };
+		D92B8D1E2696641A0089CC8A /* SDKVideoPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKVideoPresenter.m; sourceTree = "<group>"; };
+		D92B8D1F2696641A0089CC8A /* SDKVideoPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKVideoPresenter.h; sourceTree = "<group>"; };
+		D92B8D212696641A0089CC8A /* SDKActionPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKActionPresenter.h; sourceTree = "<group>"; };
+		D92B8D222696641A0089CC8A /* SDKActionPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKActionPresenter.m; sourceTree = "<group>"; };
+		D92B8D242696641A0089CC8A /* SDKSharePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKSharePresenter.h; sourceTree = "<group>"; };
+		D92B8D252696641A0089CC8A /* SDKSharePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKSharePresenter.m; sourceTree = "<group>"; };
+		D92B8D272696641A0089CC8A /* SDKAudioPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKAudioPresenter.h; sourceTree = "<group>"; };
+		D92B8D282696641A0089CC8A /* SDKAudioPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKAudioPresenter.m; sourceTree = "<group>"; };
+		D92B8D412696641A0089CC8A /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		D92B8DA8269665340089CC8A /* MobileRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileRTC.framework; path = lib/MobileRTC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92B8CAF269663B70089CC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B8DA9269665340089CC8A /* MobileRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B8CB8269663B70089CC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B8CBC269663B70089CC8A /* ZoomCustomUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92B8CA8269663B70089CC8A = {
+			isa = PBXGroup;
+			children = (
+				D92B8CB4269663B70089CC8A /* ZoomCustomUI */,
+				D92B8CBF269663B70089CC8A /* ZoomCustomUITests */,
+				D92B8CB3269663B70089CC8A /* Products */,
+				D92B8DA7269665340089CC8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D92B8CB3269663B70089CC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CB2269663B70089CC8A /* ZoomCustomUI.framework */,
+				D92B8CBB269663B70089CC8A /* ZoomCustomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92B8CB4269663B70089CC8A /* ZoomCustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CD42696641A0089CC8A /* CustomMeeting */,
+				D92B8CD02696641A0089CC8A /* openGL */,
+				D92B8D022696641A0089CC8A /* SDKPresenters */,
+				D92B8D412696641A0089CC8A /* Utility.h */,
+				D92B8CD32696641A0089CC8A /* Utility.m */,
+				D92B8D012696641A0089CC8A /* ZoomCustomUI.m */,
+				D92B8CCF2696641A0089CC8A /* zoom_cutomui_prefix.pch */,
+				D92B8CB5269663B70089CC8A /* ZoomCustomUI.h */,
+				D92B8CB6269663B70089CC8A /* Info.plist */,
+			);
+			path = ZoomCustomUI;
+			sourceTree = "<group>";
+		};
+		D92B8CBF269663B70089CC8A /* ZoomCustomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CC0269663B70089CC8A /* ZoomCustomUITests.m */,
+				D92B8CC2269663B70089CC8A /* Info.plist */,
+			);
+			path = ZoomCustomUITests;
+			sourceTree = "<group>";
+		};
+		D92B8CD02696641A0089CC8A /* openGL */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CD12696641A0089CC8A /* OpenglView.h */,
+				D92B8CD22696641A0089CC8A /* OpenglView.m */,
+			);
+			path = openGL;
+			sourceTree = "<group>";
+		};
+		D92B8CD42696641A0089CC8A /* CustomMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CD52696641A0089CC8A /* VideoViewController.h */,
+				D92B8CD62696641A0089CC8A /* QAListViewController.h */,
+				D92B8CD72696641A0089CC8A /* HorizontalTableView.m */,
+				D92B8CD82696641A0089CC8A /* VBViewController.h */,
+				D92B8CD92696641A0089CC8A /* CustomMeetingViewController.m */,
+				D92B8CDA2696641A0089CC8A /* ThumbTableViewCell.h */,
+				D92B8CDB2696641A0089CC8A /* LocalShareViewController.h */,
+				D92B8CDC2696641A0089CC8A /* BottomPanelView.h */,
+				D92B8CDD2696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.h */,
+				D92B8CDE2696641A0089CC8A /* ThumbView.h */,
+				D92B8CDF2696641A0089CC8A /* BOMeetingViewController.h */,
+				D92B8CE02696641A0089CC8A /* AnnoFloatBarView.h */,
+				D92B8CE12696641A0089CC8A /* TopPanelView.h */,
+				D92B8CE22696641A0089CC8A /* CustomRemoteControl.m */,
+				D92B8CE32696641A0089CC8A /* QAListTableViewCell.m */,
+				D92B8CE42696641A0089CC8A /* RemoteShareViewController.h */,
+				D92B8CE52696641A0089CC8A /* QAListViewController.m */,
+				D92B8CE62696641A0089CC8A /* VideoViewController.m */,
+				D92B8CE72696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.m */,
+				D92B8CE82696641A0089CC8A /* BottomPanelView.m */,
+				D92B8CE92696641A0089CC8A /* LocalShareViewController.m */,
+				D92B8CEA2696641A0089CC8A /* ThumbTableViewCell.m */,
+				D92B8CEB2696641A0089CC8A /* CustomMeetingViewController.h */,
+				D92B8CEC2696641A0089CC8A /* VBViewController.m */,
+				D92B8CED2696641A0089CC8A /* HorizontalTableView.h */,
+				D92B8CEE2696641A0089CC8A /* CustomRemoteControl.h */,
+				D92B8CEF2696641A0089CC8A /* TopPanelView.m */,
+				D92B8CF02696641A0089CC8A /* AnnoFloatBarView.m */,
+				D92B8CF12696641A0089CC8A /* RawData */,
+				D92B8CFD2696641A0089CC8A /* BOMeetingViewController.m */,
+				D92B8CFE2696641A0089CC8A /* ThumbView.m */,
+				D92B8CFF2696641A0089CC8A /* RemoteShareViewController.m */,
+				D92B8D002696641A0089CC8A /* QAListTableViewCell.h */,
+			);
+			path = CustomMeeting;
+			sourceTree = "<group>";
+		};
+		D92B8CF12696641A0089CC8A /* RawData */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CF22696641A0089CC8A /* OpenGLViewController.h */,
+				D92B8CF32696641A0089CC8A /* TopBar.h */,
+				D92B8CF42696641A0089CC8A /* BottomBarView.h */,
+				D92B8CF52696641A0089CC8A /* audioRawData */,
+				D92B8CF82696641A0089CC8A /* ControlBar.h */,
+				D92B8CF92696641A0089CC8A /* OpenGLViewController.m */,
+				D92B8CFA2696641A0089CC8A /* BottomBarView.m */,
+				D92B8CFB2696641A0089CC8A /* TopBar.m */,
+				D92B8CFC2696641A0089CC8A /* ControlBar.m */,
+			);
+			path = RawData;
+			sourceTree = "<group>";
+		};
+		D92B8CF52696641A0089CC8A /* audioRawData */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8CF62696641A0089CC8A /* AudioRawDataSaveSandboxHelper.h */,
+				D92B8CF72696641A0089CC8A /* AudioRawDataSaveSandboxHelper.m */,
+			);
+			path = audioRawData;
+			sourceTree = "<group>";
+		};
+		D92B8D022696641A0089CC8A /* SDKPresenters */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D0C2696641A0089CC8A /* how_to_use_inmeeting_function */,
+			);
+			path = SDKPresenters;
+			sourceTree = "<group>";
+		};
+		D92B8D0C2696641A0089CC8A /* how_to_use_inmeeting_function */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D1C2696641A0089CC8A /* how_to_use_customized_inmeeting_ui */,
+			);
+			path = how_to_use_inmeeting_function;
+			sourceTree = "<group>";
+		};
+		D92B8D1C2696641A0089CC8A /* how_to_use_customized_inmeeting_ui */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D1D2696641A0089CC8A /* how_to_use_customized_video */,
+				D92B8D202696641A0089CC8A /* how_to_use_inmeeting_actions */,
+				D92B8D232696641A0089CC8A /* how_to_use_customized_share */,
+				D92B8D262696641A0089CC8A /* how_to_use_customized_audio */,
+			);
+			path = how_to_use_customized_inmeeting_ui;
+			sourceTree = "<group>";
+		};
+		D92B8D1D2696641A0089CC8A /* how_to_use_customized_video */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D1E2696641A0089CC8A /* SDKVideoPresenter.m */,
+				D92B8D1F2696641A0089CC8A /* SDKVideoPresenter.h */,
+			);
+			path = how_to_use_customized_video;
+			sourceTree = "<group>";
+		};
+		D92B8D202696641A0089CC8A /* how_to_use_inmeeting_actions */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D212696641A0089CC8A /* SDKActionPresenter.h */,
+				D92B8D222696641A0089CC8A /* SDKActionPresenter.m */,
+			);
+			path = how_to_use_inmeeting_actions;
+			sourceTree = "<group>";
+		};
+		D92B8D232696641A0089CC8A /* how_to_use_customized_share */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D242696641A0089CC8A /* SDKSharePresenter.h */,
+				D92B8D252696641A0089CC8A /* SDKSharePresenter.m */,
+			);
+			path = how_to_use_customized_share;
+			sourceTree = "<group>";
+		};
+		D92B8D262696641A0089CC8A /* how_to_use_customized_audio */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8D272696641A0089CC8A /* SDKAudioPresenter.h */,
+				D92B8D282696641A0089CC8A /* SDKAudioPresenter.m */,
+			);
+			path = how_to_use_customized_audio;
+			sourceTree = "<group>";
+		};
+		D92B8DA7269665340089CC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D92B8DA8269665340089CC8A /* MobileRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D92B8CAD269663B70089CC8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B8D682696641A0089CC8A /* ControlBar.h in Headers */,
+				D92B8D5D2696641A0089CC8A /* CustomMeetingViewController.h in Headers */,
+				D92B8D472696641A0089CC8A /* VideoViewController.h in Headers */,
+				D92B8D5F2696641A0089CC8A /* HorizontalTableView.h in Headers */,
+				D92B8D872696641A0089CC8A /* SDKVideoPresenter.h in Headers */,
+				D92B8D662696641A0089CC8A /* AudioRawDataSaveSandboxHelper.h in Headers */,
+				D92B8D512696641A0089CC8A /* BOMeetingViewController.h in Headers */,
+				D92B8D4D2696641A0089CC8A /* LocalShareViewController.h in Headers */,
+				D92B8D9E2696641A0089CC8A /* Utility.h in Headers */,
+				D92B8D8A2696641A0089CC8A /* SDKSharePresenter.h in Headers */,
+				D92B8D532696641A0089CC8A /* TopPanelView.h in Headers */,
+				D92B8D602696641A0089CC8A /* CustomRemoteControl.h in Headers */,
+				D92B8D652696641A0089CC8A /* BottomBarView.h in Headers */,
+				D92B8D522696641A0089CC8A /* AnnoFloatBarView.h in Headers */,
+				D92B8D4F2696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.h in Headers */,
+				D92B8CC3269663B70089CC8A /* ZoomCustomUI.h in Headers */,
+				D92B8D4A2696641A0089CC8A /* VBViewController.h in Headers */,
+				D92B8D632696641A0089CC8A /* OpenGLViewController.h in Headers */,
+				D92B8D8C2696641A0089CC8A /* SDKAudioPresenter.h in Headers */,
+				D92B8D4E2696641A0089CC8A /* BottomPanelView.h in Headers */,
+				D92B8D642696641A0089CC8A /* TopBar.h in Headers */,
+				D92B8D882696641A0089CC8A /* SDKActionPresenter.h in Headers */,
+				D92B8D482696641A0089CC8A /* QAListViewController.h in Headers */,
+				D92B8D502696641A0089CC8A /* ThumbView.h in Headers */,
+				D92B8D4C2696641A0089CC8A /* ThumbTableViewCell.h in Headers */,
+				D92B8D702696641A0089CC8A /* QAListTableViewCell.h in Headers */,
+				D92B8D442696641A0089CC8A /* OpenglView.h in Headers */,
+				D92B8D432696641A0089CC8A /* zoom_cutomui_prefix.pch in Headers */,
+				D92B8D562696641A0089CC8A /* RemoteShareViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D92B8CB1269663B70089CC8A /* ZoomCustomUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B8CC6269663B70089CC8A /* Build configuration list for PBXNativeTarget "ZoomCustomUI" */;
+			buildPhases = (
+				D92B8CAD269663B70089CC8A /* Headers */,
+				D92B8CAE269663B70089CC8A /* Sources */,
+				D92B8CAF269663B70089CC8A /* Frameworks */,
+				D92B8CB0269663B70089CC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomCustomUI;
+			productName = ZoomCustomUI;
+			productReference = D92B8CB2269663B70089CC8A /* ZoomCustomUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D92B8CBA269663B70089CC8A /* ZoomCustomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B8CC9269663B70089CC8A /* Build configuration list for PBXNativeTarget "ZoomCustomUITests" */;
+			buildPhases = (
+				D92B8CB7269663B70089CC8A /* Sources */,
+				D92B8CB8269663B70089CC8A /* Frameworks */,
+				D92B8CB9269663B70089CC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92B8CBE269663B70089CC8A /* PBXTargetDependency */,
+			);
+			name = ZoomCustomUITests;
+			productName = ZoomCustomUITests;
+			productReference = D92B8CBB269663B70089CC8A /* ZoomCustomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92B8CA9269663B70089CC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D92B8CB1269663B70089CC8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D92B8CBA269663B70089CC8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D92B8CAC269663B70089CC8A /* Build configuration list for PBXProject "ZoomCustomUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D92B8CA8269663B70089CC8A;
+			productRefGroup = D92B8CB3269663B70089CC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92B8CB1269663B70089CC8A /* ZoomCustomUI */,
+				D92B8CBA269663B70089CC8A /* ZoomCustomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92B8CB0269663B70089CC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B8CB9269663B70089CC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92B8CAE269663B70089CC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B8D5B2696641A0089CC8A /* LocalShareViewController.m in Sources */,
+				D92B8D862696641A0089CC8A /* SDKVideoPresenter.m in Sources */,
+				D92B8D5A2696641A0089CC8A /* BottomPanelView.m in Sources */,
+				D92B8D892696641A0089CC8A /* SDKActionPresenter.m in Sources */,
+				D92B8D692696641A0089CC8A /* OpenGLViewController.m in Sources */,
+				D92B8D5C2696641A0089CC8A /* ThumbTableViewCell.m in Sources */,
+				D92B8D6B2696641A0089CC8A /* TopBar.m in Sources */,
+				D92B8D622696641A0089CC8A /* AnnoFloatBarView.m in Sources */,
+				D92B8D542696641A0089CC8A /* CustomRemoteControl.m in Sources */,
+				D92B8D592696641A0089CC8A /* CustomMeetingViewController+MeetingDelegate.m in Sources */,
+				D92B8D612696641A0089CC8A /* TopPanelView.m in Sources */,
+				D92B8D552696641A0089CC8A /* QAListTableViewCell.m in Sources */,
+				D92B8D462696641A0089CC8A /* Utility.m in Sources */,
+				D92B8D572696641A0089CC8A /* QAListViewController.m in Sources */,
+				D92B8D8B2696641A0089CC8A /* SDKSharePresenter.m in Sources */,
+				D92B8D6A2696641A0089CC8A /* BottomBarView.m in Sources */,
+				D92B8D452696641A0089CC8A /* OpenglView.m in Sources */,
+				D92B8D8D2696641A0089CC8A /* SDKAudioPresenter.m in Sources */,
+				D92B8D492696641A0089CC8A /* HorizontalTableView.m in Sources */,
+				D92B8D712696641A0089CC8A /* ZoomCustomUI.m in Sources */,
+				D92B8D6D2696641A0089CC8A /* BOMeetingViewController.m in Sources */,
+				D92B8D5E2696641A0089CC8A /* VBViewController.m in Sources */,
+				D92B8D582696641A0089CC8A /* VideoViewController.m in Sources */,
+				D92B8D6C2696641A0089CC8A /* ControlBar.m in Sources */,
+				D92B8D6F2696641A0089CC8A /* RemoteShareViewController.m in Sources */,
+				D92B8D672696641A0089CC8A /* AudioRawDataSaveSandboxHelper.m in Sources */,
+				D92B8D4B2696641A0089CC8A /* CustomMeetingViewController.m in Sources */,
+				D92B8D6E2696641A0089CC8A /* ThumbView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B8CB7269663B70089CC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B8CC1269663B70089CC8A /* ZoomCustomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D92B8CBE269663B70089CC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92B8CB1269663B70089CC8A /* ZoomCustomUI */;
+			targetProxy = D92B8CBD269663B70089CC8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D92B8CC4269663B70089CC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D92B8CC5269663B70089CC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D92B8CC7269663B70089CC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 48LYU3H3DB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				GCC_PREFIX_HEADER = ZoomCustomUI/zoom_cutomui_prefix.pch;
+				INFOPLIST_FILE = ZoomCustomUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webcare.ZoomCustomUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92B8CC8269663B70089CC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 48LYU3H3DB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				GCC_PREFIX_HEADER = ZoomCustomUI/zoom_cutomui_prefix.pch;
+				INFOPLIST_FILE = ZoomCustomUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webcare.ZoomCustomUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D92B8CCA269663B70089CC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48LYU3H3DB;
+				INFOPLIST_FILE = ZoomCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webcare.ZoomCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92B8CCB269663B70089CC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48LYU3H3DB;
+				INFOPLIST_FILE = ZoomCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webcare.ZoomCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92B8CAC269663B70089CC8A /* Build configuration list for PBXProject "ZoomCustomUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B8CC4269663B70089CC8A /* Debug */,
+				D92B8CC5269663B70089CC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92B8CC6269663B70089CC8A /* Build configuration list for PBXNativeTarget "ZoomCustomUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B8CC7269663B70089CC8A /* Debug */,
+				D92B8CC8269663B70089CC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92B8CC9269663B70089CC8A /* Build configuration list for PBXNativeTarget "ZoomCustomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B8CCA269663B70089CC8A /* Debug */,
+				D92B8CCB269663B70089CC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D92B8CA9269663B70089CC8A /* Project object */;
+}
